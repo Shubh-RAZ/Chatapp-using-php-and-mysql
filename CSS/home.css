@@ -1,0 +1,83 @@
+
+        body{
+            width: 100%;
+            min-height: 100vh;
+            background-image:linear-gradient(45deg,black,black,#091921);
+        }
+
+        span{
+            color: white;
+        }
+
+        a{
+            color: white;
+        }
+
+        a:hover{
+            color:white;
+        }
+
+        .content{
+            position: relative;
+            top: 7px;
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+        .friends:hover .content{
+            opacity: 1;
+        }
+
+        .friends{
+            border: 2px solid;
+            transition: 0.5s;
+            height: 300px;
+            transition: 0.5s;
+            box-shadow: 0 0 5px #03e9f4,
+                        0 0 5px #03e9f4,
+                        0 0 5px #03e9f4,
+                        0 0 5px #03e9f4;
+        }
+
+        .friends-image{
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .friends-image img{
+            opacity: 0.3;
+            width: 100%;
+            height: 100%;
+            transition: 0.5s;
+
+        }
+
+        .friends:hover{
+            height: 350px;
+        }
+
+        .container{
+            position: relative;
+            top:30px;
+            
+        }
+
+        .friends:hover .friends-image img{
+            opacity: 1;
+        }
+       
+
+        .on9{
+            background: green;
+            border-radius: 50%;
+            box-shadow: 0 0 5px green,
+                        0 0 5px green,
+                        0 0 5px green,
+                        0 0 5px green;
+         
+
+        }
+
+
+  

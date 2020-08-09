@@ -1,0 +1,140 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/6.0.0/css/font-awesome.min.css";
+
+body{
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(45deg,black,grey,black,#091921,black);
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-header {
+    color: white;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.content p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.form-group {
+    margin: 2px;
+    color: white;
+}
+
+.form{
+    margin-top: 10px;
+    padding: 2%;
+    opacity: 0.5;
+}
+
+.username{
+    border-bottom: 2px solid #4caf50;
+}
+
+.password{
+    border-bottom: 2px solid #4caf50;
+}
+
+.email{
+    border-bottom: 2px solid #4caf50;
+}
+
+.country{
+    border-bottom: 2px solid #4caf50;
+}
+
+.gender{
+    border-bottom: 2px solid #4caf50;
+}
+
+.username input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.password input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.email input {   
+    border: none;
+    outline: none;
+    background: none;
+}
+.country select {   
+    border: none;
+    outline: none;
+    background: none;
+}
+.gender select {   
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.form:hover{
+    opacity: 1;
+    border-radius: 2%;
+
+}
+.signup-form{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+.text-center {
+    text-align: center!important;
+    font-size: 21px;
+    padding-bottom: 5%;
+    margin: 1%;
+}
+
+.text-center a{
+    position: relative;
+    top:10px;
+    text-decoration: none;
+    border-radius: 49px;
+    background:linear-gradient(90deg,#0162cd,#55e7fc);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;  
+}
+
+.text-center a:hover{
+
+    text-transform: uppercase;
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+
+}
+
+.content p:hover{
+    -webkit-box-reflect: below -2px linear-gradient(transparent,rgba(114, 14, 73, 0.2));
+    text-shadow:  0 0 5px #a5159e,
+                  0 0 25px #790c70,
+                  0 0 50px #881b7f,
+                  0 0 200px #9b1889;
+}

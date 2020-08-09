@@ -1,0 +1,105 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/6.0.0/css/font-awesome.min.css";
+
+
+.icon{
+    display: flex;
+}
+
+.icon input{
+    position: relative;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 10px;
+}
+.form-group{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid #4caf50;
+}
+
+.clock{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.form-group label{
+    float: left;
+}
+
+.clock img{
+    width: 250px;
+    height: 250px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(45deg,black,black,#091921);
+}
+
+
+
+.email{
+    position: relative;
+    margin-top: 7px;
+    height: 28px;
+}
+
+.fa-unlock-alt{
+    position: relative;
+    margin-top: 10px;
+    height: 28px;
+
+}
+.signin-form{
+    position: relative;
+    display:block;
+    float: right;
+    width:520px;
+    padding: 50px;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    color:white;
+    padding: 0px 150px 150px 100px;
+}
+
+
+.form-header{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.form-header h2{
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.form-header h2:hover{
+    border: 0;
+    box-shadow: 0 0 3px #ffe205,0 0 7px #ffe205,0 0 20px #edd205;
+    color: white;
+    
+
+}
+
+
+.form-group{
+    display: block;
+    margin: 10px;
+
+}
+
+.input form-control{
+    display: block;
+}
