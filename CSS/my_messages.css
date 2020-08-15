@@ -81,10 +81,21 @@
     text-align: center;
 }
 
-.del{
+.dels{
     color: red;
     position: relative;
     bottom: 10px;
+    border: none;
+    outline: none;
+    background: none;
+   
+}
+
+.del{
+    background:  #03283a;
+    border: none;
+    outline: none;
+    background: none;
 }
 
 .time{

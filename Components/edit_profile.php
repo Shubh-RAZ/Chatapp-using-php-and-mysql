@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include("include/connection.php");
+    include("../include/connection.php");
     
 
         $user_id=htmlentities(mysqli_real_escape_string( $con , $_GET['u_id']));

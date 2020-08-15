@@ -1,7 +1,7 @@
 
 INFO:
 <?php
- include("include/connection.php");
+ include("../include/connection.php");
 
  if(isset($_GET['u_id'])){
 

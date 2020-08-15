@@ -1,5 +1,5 @@
 <?php
- include("include/connection.php");
+ include("../include/connection.php");
 
  $select = "select * from users";
  $users = mysqli_query($con , $select);

@@ -1,6 +1,6 @@
 <?php
     
-    include("include/connection.php");
+    include("../include/connection.php");
 
     if(isset($_POST['sign_up'])){
         $name=htmlentities(mysqli_real_escape_string($con , $_POST['u_name']));
@@ -12,6 +12,12 @@
         $status="unverified";
         $posts="no";
         $ver_code= mt_rand();
+
+        $sql = "create table $name (friends_id int not null,
+        friend_requests varchar(64),
+        status varchar(64))";
+
+        $rsult = mysqli_query($con,$sql) or die('creating dynamic data failed');
 
         if($name==""){
             echo"<script>alert('we cannot verify your name')</script>";

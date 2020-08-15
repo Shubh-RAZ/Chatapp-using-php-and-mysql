@@ -1,6 +1,6 @@
 <?php
 	
-	include "include/connection.php";
+	include "../include/connection.php";
 	session_start();
 	$p_id = $_GET['p-id'];
 	$u_id = $_GET['u-id'];

@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    include("include/connection.php");
+    include("../include/connection.php");
 
     if(!isset($_SESSION['user_email'])){
         echo "<script>window.open('signIn.php' , '_self')</script>";
@@ -111,8 +111,8 @@ else{ ?>
                                             </div> 
                                             <div class='deleted'>                                                          
                                                 <form method='post'>
-                                                    <input value='$msg_id' name='delete' />
-                                                    <button name='del' type='submit'><i class='fa fa-trash-o del' aria-hidden='true' ></i>
+                                                    <input value='$msg_id' name='delete' style = 'visibility:hidden' />
+                                                    <button name='del' type='submit'><i class='fa fa-trash-o dels' aria-hidden='true' ></i>
                                                     </button>
                                                 </form>
                                             </div>
@@ -153,7 +153,7 @@ else{ ?>
                 <div class="right-chat-textbox">
                     <form method="post">
                         <input type="text" name="msg_content" placeholder="Type your message..." autocomplete="off">
-                        <button class="btn" name="sub"><i class="fa fa-mars-stroke-h submit" aria-hidden="true"></i></button>
+                        <button class="btn" type="submit" name="submit"><i class="fa fa-mars-stroke-h submit" aria-hidden="true"></i></button>
                     </form>
                 </div>
             </div>

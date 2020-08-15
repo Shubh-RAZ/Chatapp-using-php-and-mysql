@@ -1,10 +1,6 @@
+<?php
 
-
-
-
-	<?php
-
-include "include/connection.php";
+include "../include/connection.php";
 session_start();
 $p_id = $_POST['p-id'];
 $u_id = $_POST['u-id'];

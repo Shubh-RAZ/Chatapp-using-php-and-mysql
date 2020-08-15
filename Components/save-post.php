@@ -1,7 +1,7 @@
 <?php
 
 			if(isset($_POST['add-post'])){
-			include "include/connection.php";
+			include "../include/connection.php";
 			 
 			
 

@@ -19,7 +19,7 @@
 		<?php
 
 			$user_id = $_GET['u_id'];
-			include "include/connection.php" ;
+			include "../include/connection.php" ;
 			session_start();
 		?>
 

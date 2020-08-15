@@ -23,7 +23,7 @@
 <body>
         
         <?php
-            include("include/connection.php");
+            include("../include/connection.php");
 
             $users = "select * from users" ;
 
